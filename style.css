@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #1f2937;
+    color: whitesmoke;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation #logo {
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+.nav-link {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link a {
+    color: whitesmoke;
+    text-decoration: none;
+    
+}
