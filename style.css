@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .navigation {
@@ -64,8 +65,38 @@
     color: whitesmoke;
     font-size: 1rem;
     background-color: #3a82f6;
-    height: 60px;
-    width: 50px;
+    height: 40px;
+    width: 90px;
     border: none;
-    border-radius: 30%;
+    border-radius: 10px;
+}
+
+.container h1 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    width: 250px;
+}
+
+.box {
+    border: thick solid #32a1ce;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-right: 40px;
+    font-weight: 600;
 }
