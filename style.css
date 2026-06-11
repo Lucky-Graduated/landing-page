@@ -136,3 +136,41 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+.section-c {
+    display: flex;
+    justify-content: center;
+}
+
+.section-c .info-box {
+    background-color: #3a82f6;
+    margin: 40px 0;
+    height: 200px;
+    width: 800px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-c .info {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.section-c .text {
+    display: flex;
+    flex-direction: column;
+    color: #303031;
+}
+
+.section-c button {
+    height: 50px;
+    width: 120px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
